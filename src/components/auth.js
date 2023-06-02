@@ -5,6 +5,7 @@ import {
   signOut,
 } from "firebase/auth";
 import { useState } from "react";
+import { useState } from "react";
 
 export const Auth = () => {
   const [email, setEmail] = useState("");
